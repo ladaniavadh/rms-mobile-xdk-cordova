@@ -18,7 +18,7 @@
     "molpay-mobile-xdk-cordova": {
         "source": {
             "type": "registry",
-            "path": "molpay-mobile-xdk-cordova"
+            "id": "molpay-mobile-xdk-cordova"
         },
         "is_top_level": true,
         "variables": {}
