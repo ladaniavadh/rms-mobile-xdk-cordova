@@ -1,11 +1,19 @@
 {
   "name": "molpay-mobile-xdk-cordova",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "MOLPay official in-app payment module for Cordova",
   "cordova": {
     "id": "molpay-mobile-xdk-cordova",
     "platforms": [
-      "android"
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "ios",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "firefoxos"
     ]
   },
   "repository": {
@@ -13,9 +21,25 @@
     "url": "git+https://github.com/MOLPay/molpay-mobile-xdk-cordova.git"
   },
   "keywords": [
-    "MOLPay",
+    "molpay",
+    "in",
+    "app",
+    "mobile",
+    "asia",
+    "payment",
+    "gateway",
+    "merchant",
+    "service",
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-ios",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-firefoxos"
   ],
   "engines": [
     {

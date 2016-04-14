@@ -1,0 +1,7 @@
+dependencies: \
+  /Volumes/DATA/Dev/molpay-mobile-xdk/private/Cordova/example/platforms/ios/CordovaLib/Classes/Public/CDVPluginResult.m \
+  /Volumes/DATA/Dev/molpay-mobile-xdk/private/Cordova/example/platforms/ios/CordovaLib/Classes/Public/CDVPluginResult.h \
+  /Volumes/DATA/Dev/molpay-mobile-xdk/private/Cordova/example/platforms/ios/CordovaLib/Classes/Public/CDVAvailability.h \
+  /Volumes/DATA/Dev/molpay-mobile-xdk/private/Cordova/example/platforms/ios/CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h \
+  /Volumes/DATA/Dev/molpay-mobile-xdk/private/Cordova/example/platforms/ios/CordovaLib/Classes/Private/CDVJSON_private.h \
+  /Volumes/DATA/Dev/molpay-mobile-xdk/private/Cordova/example/platforms/ios/CordovaLib/Classes/Private/CDVDebug.h
