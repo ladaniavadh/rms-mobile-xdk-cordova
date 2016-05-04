@@ -1,6 +1,6 @@
 {
   "name": "molpay-mobile-xdk-cordova",
-  "version": "1.0.6",
+  "version": "1.1.1",
   "description": "MOLPay official in-app payment module for Cordova",
   "cordova": {
     "id": "molpay-mobile-xdk-cordova",

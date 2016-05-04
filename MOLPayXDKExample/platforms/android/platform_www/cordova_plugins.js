@@ -26,7 +26,7 @@ module.exports.metadata =
 {
     "cordova-plugin-inappbrowser": "1.3.0",
     "cordova-plugin-whitelist": "1.2.1",
-    "molpay-mobile-xdk-cordova": "1.0.6"
+    "molpay-mobile-xdk-cordova": "1.1.1"
 };
 // BOTTOM OF METADATA
 });

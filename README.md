@@ -4,9 +4,19 @@
 
 # molpay-mobile-xdk-cordova
 
-This plugin provides an integrated MOLPay payment module that contains a wrapper `molpay.js` and 
-an upgradable core as the `molpay-mobile-xdk-www` folder, which the latter can be separately
-downloaded at https://github.com/MOLPay/molpay-mobile-xdk-www and replace the local version.
+This is the complete and functional MOLPay Cordova payment module that is ready to be implemented into Cordova project through Cordova plugin installation procedures. An example application project (MOLPayXDKExample) is provided for MOLPayXDK Cordova integration reference.
+
+This plugin provides an integrated MOLPay payment module that contains a wrapper 'molpay.js' and an upgradable core as the 'molpay-mobile-xdk-www' folder, which the latter can be separately downloaded at https://github.com/MOLPay/molpay-mobile-xdk-www and update the local version.
+
+## Recommended configurations
+
+    - Cordova SDK Version: 6.1.0 ++
+
+    - Node.js Version: 5.3.0 ++
+
+    - Minimum Android target version: Android 4.1
+
+    - Minimum iOS target version: 7.0
 
 ## Installation
 
@@ -58,9 +68,9 @@ downloaded at https://github.com/MOLPay/molpay-mobile-xdk-www and replace the lo
 
     window.molpay.closeMolpay();
 
-    *Notes: The host application must implement it's own mechanism to close the payment module UI, i.e. <button onclick="window.molpay.closeMolpay()">Close</button>. The close event will also return a final result.*
+    * Notes: closeMolpay does not close remove the UI, the host application must implement it's own mechanism to close the payment module UI, i.e. <button onclick="window.molpay.closeMolpay()">Close</button>. The close event will also return a final result.
 
-## Transaction request service (No UI & auto close)
+## Transaction status request service (No UI & auto close) (optional)
 
     window.molpay.transactionRequest(paymentDetails, molpayCallback);
 
