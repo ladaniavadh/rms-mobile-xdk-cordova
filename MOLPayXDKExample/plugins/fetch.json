@@ -7,6 +7,14 @@
         "is_top_level": true,
         "variables": {}
     },
+    "molpay-mobile-xdk-cordova": {
+        "source": {
+            "type": "registry",
+            "id": "molpay-mobile-xdk-cordova"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
     "cordova-plugin-inappbrowser": {
         "source": {
             "type": "registry",
@@ -15,12 +23,12 @@
         "is_top_level": false,
         "variables": {}
     },
-    "molpay-mobile-xdk-cordova": {
+    "cordova-plugin-privacyscreen": {
         "source": {
             "type": "registry",
-            "id": "molpay-mobile-xdk-cordova"
+            "id": "cordova-plugin-privacyscreen"
         },
-        "is_top_level": true,
+        "is_top_level": false,
         "variables": {}
     }
 }

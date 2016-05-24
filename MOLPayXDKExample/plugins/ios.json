@@ -17,6 +17,9 @@
     "dependent_plugins": {
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
+        },
+        "cordova-plugin-privacyscreen": {
+            "PACKAGE_NAME": "molpay.mobile.xdk.example"
         }
     }
 }

@@ -7,9 +7,6 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "molpay.mobile.xdk.example"
-        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         },
@@ -17,5 +14,12 @@
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "molpay.mobile.xdk.example"
+        },
+        "cordova-plugin-privacyscreen": {
+            "PACKAGE_NAME": "molpay.mobile.xdk.example"
+        }
+    }
 }

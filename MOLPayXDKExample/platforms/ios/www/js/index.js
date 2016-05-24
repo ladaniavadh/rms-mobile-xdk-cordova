@@ -31,6 +31,9 @@ var app = {
             'mp_editing_enabled' : false,
             'mp_transaction_id' : '',
             'mp_request_type' : '' // Use this as the result id, do not use 'Receipt'.
+            // 'mp_is_escrow' : '' // Optional for Escrow, put "1" to enable escrow
+            // 'mp_filter' : '' // Optional for debit card only transactions
+            // 'mp_custom_css_url' : cordova.file.applicationDirectory + 'www/custom.css' // Optional for custom UI
         };
 
         var molpayCallback = function (transactionResult) {
