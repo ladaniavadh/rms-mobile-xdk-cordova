@@ -29,10 +29,12 @@ var app = {
             'mp_bill_mobile' : '123456',
             'mp_channel_editing' : false,
             'mp_editing_enabled' : false,
-            'mp_transaction_id' : '',
-            'mp_request_type' : '' // Use this as the result id, do not use 'Receipt'.
+            'mp_transaction_id' : ''
+            // 'mp_request_type' : '' // Optional, set 'Status' when performing a transactionRequest
+            // 'mp_bin_lock' : ['414170', '414171'] // Optional for credit card BIN restrictions
+            // 'mp_bin_lock_err_msg' : 'Only UOB allowed' // Optional for credit card BIN restrictions
             // 'mp_is_escrow' : '' // Optional for Escrow, put "1" to enable escrow
-            // 'mp_filter' : '' // Optional for debit card only transactions
+            // 'mp_filter' : '0' // Optional for debit card only transactions
             // 'mp_custom_css_url' : cordova.file.applicationDirectory + 'www/custom.css' // Optional for custom UI
         };
 
