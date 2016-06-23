@@ -107,7 +107,7 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
             
             // For transaction request use only, do not use this on payment process
             'mp_transaction_id' : '', // Optional, provide a valid cash channel transaction id here will display a payment instruction screen.
-            'mp_request_type' : '' // Optional, set 'Status' when performing a transactionRequest
+            'mp_request_type' : '' // Optional, set 'Status' when doing a transactionRequest
         };
     }
 
