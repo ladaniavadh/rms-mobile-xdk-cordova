@@ -133,10 +133,6 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
     
     4) After the user done the paying at the 7-Eleven counter, they can close and exit MOLPay XDK by clicking the “Close” button again.
 
-## Transaction status request service (No UI & auto close) (Optional, NOT required for payment process)
-
-    window.molpay.transactionRequest(paymentDetails, molpayCallback);
-
 ## Support
 
 Submit issue to this repository or email to our support@molpay.com

@@ -107,7 +107,7 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
             
             // For transaction request use only, do not use this on payment process
             'mp_transaction_id' : '', // Optional, provide a valid cash channel transaction id here will display a payment instruction screen.
-            'mp_request_type' : '' // Optional, set 'Status' when performing a transactionRequest
+            'mp_request_type' : '' // Optional, set 'Status' when doing a transactionRequest
         };
     }
 
@@ -132,10 +132,6 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
     3) When later in time, the user would arrive at say 7-Eleven to make the payment, the host app then can call the XDK again to display the “Payment Instruction” again, then it has to pass in all the payment details like it will for the standard payment process, only this time, the host app will have to also pass in an extra value in the payment details, it’s the “mp_transaction_id”, the value has to be the same transaction returned in the results from the XDK earlier during the completion of the transaction. If the transaction id provided is accurate, the XDK will instead show the “Payment Instruction" in place of the standard payment screen.
     
     4) After the user done the paying at the 7-Eleven counter, they can close and exit MOLPay XDK by clicking the “Close” button again.
-
-## Transaction status request service (No UI & auto close) (Optional, NOT required for payment process)
-
-    window.molpay.transactionRequest(paymentDetails, molpayCallback);
 
 ## Support
 
