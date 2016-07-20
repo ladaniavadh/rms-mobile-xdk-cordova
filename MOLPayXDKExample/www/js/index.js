@@ -30,6 +30,7 @@ var app = {
             'mp_channel_editing' : false,
             'mp_editing_enabled' : false,
             'mp_transaction_id' : ''
+            // 'mp_preferred_token' : '', // Optional, set the token id to nominate a preferred token as the default selection
             // 'mp_request_type' : '' // Optional, set 'Status' when performing a transactionRequest
             // 'mp_bin_lock' : ['414170', '414171'] // Optional for credit card BIN restrictions
             // 'mp_bin_lock_err_msg' : 'Only UOB allowed' // Optional for credit card BIN restrictions

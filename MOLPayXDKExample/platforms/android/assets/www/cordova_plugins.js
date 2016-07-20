@@ -27,7 +27,7 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.2.1",
     "cordova-plugin-inappbrowser": "1.4.0",
     "cordova-plugin-privacyscreen": "0.3.1",
-    "molpay-mobile-xdk-cordova": "2.0.0"
+    "molpay-mobile-xdk-cordova": "2.2.0"
 };
 // BOTTOM OF METADATA
 });
