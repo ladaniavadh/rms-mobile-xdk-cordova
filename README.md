@@ -110,7 +110,10 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
             'mp_request_type' : '', // Optional, set 'Status' when doing a transactionRequest
     
             // Optional, set the token id to nominate a preferred token as the default selection
-            'mp_preferred_token': ''
+            'mp_preferred_token': '',
+    
+            // Optional, credit card transaction type, set "AUTH" to authorize the transaction
+            'mp_tcctype': ''
         };
     }
 
