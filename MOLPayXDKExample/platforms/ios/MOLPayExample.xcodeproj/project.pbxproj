@@ -15,9 +15,9 @@
 		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
-		EBCADC58119E445AA067A0CE /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C084E2DDE44B048D5B3731 /* CDVInAppBrowser.m */; };
-		BCD47AEAE37E46E7A0A32566 /* PrivacyScreenPlugin.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D7D61664BC34CF8980700C7 /* PrivacyScreenPlugin.h */; };
-		8AFA9D12D53B470581D559D6 /* PrivacyScreenPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FF3F644244448AC5A55A4 /* PrivacyScreenPlugin.m */; };
+		8772A523B57A43A39DD78603 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E66030AEB848389384852B /* CDVInAppBrowser.m */; };
+		EB09AB3956E04BE5A760D011 /* PrivacyScreenPlugin.h in Resources */ = {isa = PBXBuildFile; fileRef = 7EE90241CFDE4D73A83702D9 /* PrivacyScreenPlugin.h */; };
+		3A34B0EE349A48D89EC24CB0 /* PrivacyScreenPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E0992288E3A0449FB9D0B2E0 /* PrivacyScreenPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +57,10 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "MOLPayExample/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		57C084E2DDE44B048D5B3731 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		814AE93322314D05A85A8F86 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3D7D61664BC34CF8980700C7 /* PrivacyScreenPlugin.h */ = {isa = PBXFileReference; name = "PrivacyScreenPlugin.h"; path = "cordova-plugin-privacyscreen/PrivacyScreenPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		0F5FF3F644244448AC5A55A4 /* PrivacyScreenPlugin.m */ = {isa = PBXFileReference; name = "PrivacyScreenPlugin.m"; path = "cordova-plugin-privacyscreen/PrivacyScreenPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B1E66030AEB848389384852B /* CDVInAppBrowser.m */ = {isa = PBXFileReference; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		62E2240024CA4BBDA19A1029 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7EE90241CFDE4D73A83702D9 /* PrivacyScreenPlugin.h */ = {isa = PBXFileReference; name = "PrivacyScreenPlugin.h"; path = "cordova-plugin-privacyscreen/PrivacyScreenPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E0992288E3A0449FB9D0B2E0 /* PrivacyScreenPlugin.m */ = {isa = PBXFileReference; name = "PrivacyScreenPlugin.m"; path = "cordova-plugin-privacyscreen/PrivacyScreenPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,10 +163,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				57C084E2DDE44B048D5B3731 /* CDVInAppBrowser.m */,
-				814AE93322314D05A85A8F86 /* CDVInAppBrowser.h */,
-				3D7D61664BC34CF8980700C7 /* PrivacyScreenPlugin.h */,
-				0F5FF3F644244448AC5A55A4 /* PrivacyScreenPlugin.m */,
+				B1E66030AEB848389384852B /* CDVInAppBrowser.m */,
+				62E2240024CA4BBDA19A1029 /* CDVInAppBrowser.h */,
+				7EE90241CFDE4D73A83702D9 /* PrivacyScreenPlugin.h */,
+				E0992288E3A0449FB9D0B2E0 /* PrivacyScreenPlugin.m */,
 			);
 			name = Plugins;
 			path = "MOLPayExample/Plugins";
@@ -281,9 +281,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				EBCADC58119E445AA067A0CE /* CDVInAppBrowser.m in Sources */,
-				BCD47AEAE37E46E7A0A32566 /* PrivacyScreenPlugin.h in Resources */,
-				8AFA9D12D53B470581D559D6 /* PrivacyScreenPlugin.m in Sources */,
+				8772A523B57A43A39DD78603 /* CDVInAppBrowser.m in Sources */,
+				EB09AB3956E04BE5A760D011 /* PrivacyScreenPlugin.h in Resources */,
+				3A34B0EE349A48D89EC24CB0 /* PrivacyScreenPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

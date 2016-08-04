@@ -37,6 +37,7 @@ var app = {
             // 'mp_is_escrow' : '' // Optional for Escrow, put "1" to enable escrow
             // 'mp_filter' : '0' // Optional for debit card only transactions
             // 'mp_custom_css_url' : cordova.file.applicationDirectory + 'www/custom.css' // Optional for custom UI
+            // 'mp_is_recurring' : false // Optional, set true to process this transaction through the recurring api, please refer the MOLPay Recurring API pdf  
         };
 
         var molpayCallback = function (transactionResult) {

@@ -109,11 +109,14 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
             'mp_transaction_id' : '', // Optional, provide a valid cash channel transaction id here will display a payment instruction screen.
             'mp_request_type' : '', // Optional, set 'Status' when doing a transactionRequest
     
-            // Optional, set the token id to nominate a preferred token as the default selection
+            // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only
             'mp_preferred_token': '',
     
             // Optional, credit card transaction type, set "AUTH" to authorize the transaction
-            'mp_tcctype': ''
+            'mp_tcctype': '',
+    
+            // Optional, set true to process this transaction through the recurring api, please refer the MOLPay Recurring API pdf  
+            'mp_is_recurring': false
         };
     }
 
