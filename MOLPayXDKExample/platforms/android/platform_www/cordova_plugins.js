@@ -14,6 +14,24 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/cordova-save-image-gallery/www/saveImageGallery.js",
+        "id": "cordova-save-image-gallery.saveImageGallery",
+        "clobbers": [
+            "cordova.saveImageGallery"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
+        "id": "cordova-plugin-x-toast.Toast",
+        "clobbers": [
+            "window.plugins.toast"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-x-toast/test/tests.js",
+        "id": "cordova-plugin-x-toast.tests"
+    },
+    {
         "file": "plugins/molpay-mobile-xdk-cordova/molpay.js",
         "id": "molpay-mobile-xdk-cordova.MOLPay",
         "clobbers": [
@@ -25,9 +43,11 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.2.1",
-    "cordova-plugin-inappbrowser": "1.4.0",
+    "cordova-plugin-inappbrowser": "1.5.0",
     "cordova-plugin-privacyscreen": "0.3.1",
-    "molpay-mobile-xdk-cordova": "2.5.1"
+    "cordova-save-image-gallery": "0.0.26",
+    "cordova-plugin-x-toast": "2.5.2",
+    "molpay-mobile-xdk-cordova": "3.0.0"
 };
 // BOTTOM OF METADATA
 });

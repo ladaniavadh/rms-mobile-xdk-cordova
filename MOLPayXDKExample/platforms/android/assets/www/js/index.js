@@ -38,6 +38,8 @@ var app = {
             // 'mp_filter' : '0' // Optional for debit card only transactions
             // 'mp_custom_css_url' : cordova.file.applicationDirectory + 'www/custom.css' // Optional for custom UI
             // 'mp_is_recurring' : false // Optional, set true to process this transaction through the recurring api, please refer the MOLPay Recurring API pdf  
+            // 'mp_allowed_channels': ['credit', 'credit3'], // Optional for channels restriction
+            // 'mp_sandbox_mode': true // Optional for sandboxed development environment, set boolean value to enable.
         };
 
         var molpayCallback = function (transactionResult) {

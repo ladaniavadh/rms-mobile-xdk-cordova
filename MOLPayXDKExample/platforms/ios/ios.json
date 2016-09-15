@@ -15,6 +15,14 @@
                         {
                             "xml": "<feature name=\"PrivacyScreenPlugin\"><param name=\"ios-package\" value=\"PrivacyScreenPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SaveImageGallery\"><param name=\"ios-package\" value=\"SaveImageGallery\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Toast\"><param name=\"ios-package\" value=\"Toast\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -31,6 +39,12 @@
         "cordova-plugin-privacyscreen": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         },
+        "cordova-save-image-gallery": {
+            "PACKAGE_NAME": "molpay.mobile.xdk.example"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "molpay.mobile.xdk.example"
+        },
         "molpay-mobile-xdk-cordova": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         }
@@ -45,6 +59,27 @@
                 "cordova.InAppBrowser.open",
                 "window.open"
             ]
+        },
+        {
+            "file": "plugins/cordova-save-image-gallery/www/saveImageGallery.js",
+            "id": "cordova-save-image-gallery.saveImageGallery",
+            "pluginId": "cordova-save-image-gallery",
+            "clobbers": [
+                "cordova.saveImageGallery"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
+            "id": "cordova-plugin-x-toast.Toast",
+            "pluginId": "cordova-plugin-x-toast",
+            "clobbers": [
+                "window.plugins.toast"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-x-toast/test/tests.js",
+            "id": "cordova-plugin-x-toast.tests",
+            "pluginId": "cordova-plugin-x-toast"
         },
         {
             "file": "plugins/molpay-mobile-xdk-cordova/molpay.js",

@@ -35,6 +35,13 @@
         <param name="ios-package" value="PrivacyScreenPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="SaveImageGallery">
+        <param name="ios-package" value="SaveImageGallery" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Toast">
+        <param name="ios-package" value="Toast" />
+    </feature>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <name>MOLPayExample</name>

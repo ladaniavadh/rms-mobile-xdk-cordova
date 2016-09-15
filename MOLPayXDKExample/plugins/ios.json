@@ -20,6 +20,12 @@
         },
         "cordova-plugin-privacyscreen": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
+        },
+        "cordova-save-image-gallery": {
+            "PACKAGE_NAME": "molpay.mobile.xdk.example"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "molpay.mobile.xdk.example"
         }
     }
 }
