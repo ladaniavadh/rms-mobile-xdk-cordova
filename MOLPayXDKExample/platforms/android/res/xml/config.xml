@@ -18,6 +18,9 @@
     <feature name="Toast">
         <param name="android-package" value="nl.xservices.plugins.Toast" />
     </feature>
+    <feature name="Permissions">
+        <param name="android-package" value="com.android.plugins.Permissions" />
+    </feature>
     <allow-intent href="market:*" />
     <name>MOLPayExample</name>
     <description>

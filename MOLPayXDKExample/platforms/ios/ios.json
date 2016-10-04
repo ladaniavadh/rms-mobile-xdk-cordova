@@ -26,6 +26,16 @@
                         }
                     ]
                 }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "NSPhotoLibraryUsageDescription": [
+                        {
+                            "xml": "<string>Payment images</string>",
+                            "count": 1
+                        }
+                    ]
+                }
             }
         }
     },
@@ -43,6 +53,9 @@
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         },
         "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "molpay.mobile.xdk.example"
+        },
+        "cordova-plugin-android-permissions": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         },
         "molpay-mobile-xdk-cordova": {

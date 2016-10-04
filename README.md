@@ -123,6 +123,9 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
     
             // Optional for sandboxed development environment, set boolean value to enable.
             'mp_sandbox_mode': true
+    
+            // Optional, required a valid mp_channel value, this will skip the payment info page and go direct to the payment screen.
+            'mp_express_mode': true
         };
     }
 

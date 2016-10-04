@@ -32,6 +32,13 @@ module.exports = [
         "id": "cordova-plugin-x-toast.tests"
     },
     {
+        "file": "plugins/cordova-plugin-android-permissions/www/permissions.js",
+        "id": "cordova-plugin-android-permissions.Permissions",
+        "clobbers": [
+            "cordova.plugins.permissions"
+        ]
+    },
+    {
         "file": "plugins/molpay-mobile-xdk-cordova/molpay.js",
         "id": "molpay-mobile-xdk-cordova.MOLPay",
         "clobbers": [
@@ -47,7 +54,8 @@ module.exports.metadata =
     "cordova-plugin-privacyscreen": "0.3.1",
     "cordova-save-image-gallery": "0.0.26",
     "cordova-plugin-x-toast": "2.5.2",
-    "molpay-mobile-xdk-cordova": "3.0.0"
+    "cordova-plugin-android-permissions": "0.10.0",
+    "molpay-mobile-xdk-cordova": "3.1.0"
 };
 // BOTTOM OF METADATA
 });
