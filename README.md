@@ -109,6 +109,9 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
             'mp_transaction_id' : '', // Optional, provide a valid cash channel transaction id here will display a payment instruction screen.
             'mp_request_type' : '', // Optional, set 'Status' when doing a transactionRequest
     
+            // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file is provided at Example project source for reference and implementation. Required cordova-plugin-file to be installed
+            'mp_custom_css_url' : cordova.file.applicationDirectory + 'www/custom.css',
+    
             // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only
             'mp_preferred_token': '',
     
