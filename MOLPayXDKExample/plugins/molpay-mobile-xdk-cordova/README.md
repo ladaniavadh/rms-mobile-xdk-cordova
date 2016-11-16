@@ -109,6 +109,9 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
             'mp_transaction_id' : '', // Optional, provide a valid cash channel transaction id here will display a payment instruction screen.
             'mp_request_type' : '', // Optional, set 'Status' when doing a transactionRequest
     
+            // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file is provided at Example project source for reference and implementation. Required cordova-plugin-file to be installed
+            'mp_custom_css_url' : cordova.file.applicationDirectory + 'www/custom.css',
+    
             // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only
             'mp_preferred_token': '',
     
@@ -150,6 +153,14 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
     3) When later in time, the user would arrive at say 7-Eleven to make the payment, the host app then can call the XDK again to display the “Payment Instruction” again, then it has to pass in all the payment details like it will for the standard payment process, only this time, the host app will have to also pass in an extra value in the payment details, it’s the “mp_transaction_id”, the value has to be the same transaction returned in the results from the XDK earlier during the completion of the transaction. If the transaction id provided is accurate, the XDK will instead show the “Payment Instruction" in place of the standard payment screen.
     
     4) After the user done the paying at the 7-Eleven counter, they can close and exit MOLPay XDK by clicking the “Close” button again.
+
+## XDK built-in checksum validator caveats 
+
+    All XDK come with a built-in checksum validator to validate all incoming checksums and return the validation result through the "mp_secured_verified" parameter. However, this mechanism will fail and always return false if merchants are implementing the private secret key (which the latter is highly recommended and prefereable.) If you would choose to implement the private secret key, you may ignore the "mp_secured_verified" and send the checksum back to your server for validation. 
+
+## Private Secret Key checksum validation formula
+
+    chksum = MD5(mp_merchant_ID + results.msgType + results.txn_ID + results.amount + results.status_code + merchant_private_secret_key)
 
 ## Support
 

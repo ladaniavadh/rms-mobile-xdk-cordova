@@ -15,19 +15,19 @@
         }
     },
     "dependent_plugins": {
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "molpay.mobile.xdk.example"
+        },
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         },
         "cordova-plugin-privacyscreen": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         },
-        "cordova-save-image-gallery": {
-            "PACKAGE_NAME": "molpay.mobile.xdk.example"
-        },
         "cordova-plugin-x-toast": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         },
-        "cordova-plugin-android-permissions": {
+        "cordova-save-image-gallery": {
             "PACKAGE_NAME": "molpay.mobile.xdk.example"
         }
     }

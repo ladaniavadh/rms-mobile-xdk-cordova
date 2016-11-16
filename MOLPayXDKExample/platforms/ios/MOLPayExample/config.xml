@@ -15,20 +15,6 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="InAppBrowser">
-        <param name="ios-package" value="CDVInAppBrowser" />
-    </feature>
-    <feature name="PrivacyScreenPlugin">
-        <param name="ios-package" value="PrivacyScreenPlugin" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="SaveImageGallery">
-        <param name="ios-package" value="SaveImageGallery" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="Toast">
-        <param name="ios-package" value="Toast" />
-    </feature>
     <name>MOLPayExample</name>
     <description>
         A sample Apache Cordova application that implements MOLPay XDK Cordova Plugin.
@@ -61,4 +47,18 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="PrivacyScreenPlugin">
+        <param name="ios-package" value="PrivacyScreenPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SaveImageGallery">
+        <param name="ios-package" value="SaveImageGallery" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Toast">
+        <param name="ios-package" value="Toast" />
+    </feature>
 </widget>
