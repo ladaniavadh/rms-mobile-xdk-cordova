@@ -15,13 +15,13 @@
 		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
-		7CE16FBE5C00486382C5DDFA /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB03736D46477BB63E294A /* CDVInAppBrowser.m */; };
-		8DC3C4E09BB44D5D8D5AD015 /* PrivacyScreenPlugin.h in Resources */ = {isa = PBXBuildFile; fileRef = 77616D99014C42A29F687640 /* PrivacyScreenPlugin.h */; };
-		20BB5B4C164C43CAA989D599 /* PrivacyScreenPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCCB6B28A5B46ECA4DCBE38 /* PrivacyScreenPlugin.m */; };
-		65A764C6E86E4E6796468F10 /* SaveImageGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8A26C0119422AB4C92F6B /* SaveImageGallery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		81232576383340F5949982D0 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF890BC41B41ACAC39F1BC /* Toast+UIView.m */; };
-		7D0EB66838B9432C9C020B23 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BEA8925A54B10848BF034 /* Toast.m */; };
-		0260978C258C4761AE65A4C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E99450D012C49CB9816FEC9 /* QuartzCore.framework */; };
+		32B96313808246C7A6A5B748 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEAA912991F43E4B3FB5D11 /* CDVInAppBrowser.m */; };
+		07AF296CA4364C00A5AD928A /* PrivacyScreenPlugin.h in Resources */ = {isa = PBXBuildFile; fileRef = E79C4F1B2C00428DBB6B3601 /* PrivacyScreenPlugin.h */; };
+		275E3F7FBA17481196E72351 /* PrivacyScreenPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DC29583A444D426392E21F41 /* PrivacyScreenPlugin.m */; };
+		7F538BD81716418AAF7D6020 /* SaveImageGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = C0975355AD86415CAAEC8440 /* SaveImageGallery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33D92F3FADE846BCB6F6401C /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F225AEA414F420FB50334CD /* Toast+UIView.m */; };
+		E1F468A188C041FBB375B0FB /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7F11D66CE4478BA6AE6FC8 /* Toast.m */; };
+		CEF1AF94F0A34ECDB420E00F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641B4A2FB4D6494DAF397F59 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,17 +61,17 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "MOLPayExample/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		7DEB03736D46477BB63E294A /* CDVInAppBrowser.m */ = {isa = PBXFileReference; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		A31BF8F78A7D4FC09ED390DB /* CDVInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		77616D99014C42A29F687640 /* PrivacyScreenPlugin.h */ = {isa = PBXFileReference; name = "PrivacyScreenPlugin.h"; path = "cordova-plugin-privacyscreen/PrivacyScreenPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		BCCCB6B28A5B46ECA4DCBE38 /* PrivacyScreenPlugin.m */ = {isa = PBXFileReference; name = "PrivacyScreenPlugin.m"; path = "cordova-plugin-privacyscreen/PrivacyScreenPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		5AE8A26C0119422AB4C92F6B /* SaveImageGallery.m */ = {isa = PBXFileReference; name = "SaveImageGallery.m"; path = "cordova-save-image-gallery/SaveImageGallery.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		8EA971AF82B6457295376A2F /* SaveImageGallery.h */ = {isa = PBXFileReference; name = "SaveImageGallery.h"; path = "cordova-save-image-gallery/SaveImageGallery.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		BEEF890BC41B41ACAC39F1BC /* Toast+UIView.m */ = {isa = PBXFileReference; name = "Toast+UIView.m"; path = "cordova-plugin-x-toast/Toast+UIView.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		5F2BEA8925A54B10848BF034 /* Toast.m */ = {isa = PBXFileReference; name = "Toast.m"; path = "cordova-plugin-x-toast/Toast.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		D3AB13FCED8440A484304B91 /* Toast+UIView.h */ = {isa = PBXFileReference; name = "Toast+UIView.h"; path = "cordova-plugin-x-toast/Toast+UIView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		32A35E69A9414009AE738BE5 /* Toast.h */ = {isa = PBXFileReference; name = "Toast.h"; path = "cordova-plugin-x-toast/Toast.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		5E99450D012C49CB9816FEC9 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		5CEAA912991F43E4B3FB5D11 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		DBBA5313FE834D64A799C4AA /* CDVInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E79C4F1B2C00428DBB6B3601 /* PrivacyScreenPlugin.h */ = {isa = PBXFileReference; name = "PrivacyScreenPlugin.h"; path = "cordova-plugin-privacyscreen/PrivacyScreenPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DC29583A444D426392E21F41 /* PrivacyScreenPlugin.m */ = {isa = PBXFileReference; name = "PrivacyScreenPlugin.m"; path = "cordova-plugin-privacyscreen/PrivacyScreenPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		C0975355AD86415CAAEC8440 /* SaveImageGallery.m */ = {isa = PBXFileReference; name = "SaveImageGallery.m"; path = "cordova-save-image-gallery/SaveImageGallery.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		5063758C4B4E41F58C133892 /* SaveImageGallery.h */ = {isa = PBXFileReference; name = "SaveImageGallery.h"; path = "cordova-save-image-gallery/SaveImageGallery.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		2F225AEA414F420FB50334CD /* Toast+UIView.m */ = {isa = PBXFileReference; name = "Toast+UIView.m"; path = "cordova-plugin-x-toast/Toast+UIView.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		DF7F11D66CE4478BA6AE6FC8 /* Toast.m */ = {isa = PBXFileReference; name = "Toast.m"; path = "cordova-plugin-x-toast/Toast.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		1A8F63E3D3BB4DC1B0E18E58 /* Toast+UIView.h */ = {isa = PBXFileReference; name = "Toast+UIView.h"; path = "cordova-plugin-x-toast/Toast+UIView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		921956E7F4BA48F0B146B071 /* Toast.h */ = {isa = PBXFileReference; name = "Toast.h"; path = "cordova-plugin-x-toast/Toast.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		641B4A2FB4D6494DAF397F59 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				0260978C258C4761AE65A4C7 /* QuartzCore.framework in Frameworks */,
+				CEF1AF94F0A34ECDB420E00F /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +150,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E99450D012C49CB9816FEC9 /* QuartzCore.framework */,
+				641B4A2FB4D6494DAF397F59 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,16 +176,16 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				7DEB03736D46477BB63E294A /* CDVInAppBrowser.m */,
-				A31BF8F78A7D4FC09ED390DB /* CDVInAppBrowser.h */,
-				77616D99014C42A29F687640 /* PrivacyScreenPlugin.h */,
-				BCCCB6B28A5B46ECA4DCBE38 /* PrivacyScreenPlugin.m */,
-				5AE8A26C0119422AB4C92F6B /* SaveImageGallery.m */,
-				8EA971AF82B6457295376A2F /* SaveImageGallery.h */,
-				BEEF890BC41B41ACAC39F1BC /* Toast+UIView.m */,
-				5F2BEA8925A54B10848BF034 /* Toast.m */,
-				D3AB13FCED8440A484304B91 /* Toast+UIView.h */,
-				32A35E69A9414009AE738BE5 /* Toast.h */,
+				5CEAA912991F43E4B3FB5D11 /* CDVInAppBrowser.m */,
+				DBBA5313FE834D64A799C4AA /* CDVInAppBrowser.h */,
+				E79C4F1B2C00428DBB6B3601 /* PrivacyScreenPlugin.h */,
+				DC29583A444D426392E21F41 /* PrivacyScreenPlugin.m */,
+				C0975355AD86415CAAEC8440 /* SaveImageGallery.m */,
+				5063758C4B4E41F58C133892 /* SaveImageGallery.h */,
+				2F225AEA414F420FB50334CD /* Toast+UIView.m */,
+				DF7F11D66CE4478BA6AE6FC8 /* Toast.m */,
+				1A8F63E3D3BB4DC1B0E18E58 /* Toast+UIView.h */,
+				921956E7F4BA48F0B146B071 /* Toast.h */,
 			);
 			name = Plugins;
 			path = "MOLPayExample/Plugins";
@@ -297,12 +297,12 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				7CE16FBE5C00486382C5DDFA /* CDVInAppBrowser.m in Sources */,
-				8DC3C4E09BB44D5D8D5AD015 /* PrivacyScreenPlugin.h in Resources */,
-				20BB5B4C164C43CAA989D599 /* PrivacyScreenPlugin.m in Sources */,
-				65A764C6E86E4E6796468F10 /* SaveImageGallery.m in Sources */,
-				81232576383340F5949982D0 /* Toast+UIView.m in Sources */,
-				7D0EB66838B9432C9C020B23 /* Toast.m in Sources */,
+				32B96313808246C7A6A5B748 /* CDVInAppBrowser.m in Sources */,
+				07AF296CA4364C00A5AD928A /* PrivacyScreenPlugin.h in Resources */,
+				275E3F7FBA17481196E72351 /* PrivacyScreenPlugin.m in Sources */,
+				7F538BD81716418AAF7D6020 /* SaveImageGallery.m in Sources */,
+				33D92F3FADE846BCB6F6401C /* Toast+UIView.m in Sources */,
+				E1F468A188C041FBB375B0FB /* Toast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
