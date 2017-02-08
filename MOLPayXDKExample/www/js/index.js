@@ -26,7 +26,7 @@ var app = {
             'mp_bill_description' : 'Bill description',
             'mp_bill_name' : 'Bill name',
             'mp_bill_email' : 'email@email.com',
-            'mp_bill_mobile' : '123456',
+            'mp_bill_mobile' : '123456'
             // 'mp_channel_editing' : false,
             // 'mp_editing_enabled' : false,
             // 'mp_transaction_id' : '', // Optional, required when mp_request_type is 'Status'
@@ -42,7 +42,11 @@ var app = {
             // 'mp_sandbox_mode': true, // Optional for sandboxed development environment, set boolean value to enable.
             // 'mp_express_mode': true, // Optional, required a valid mp_channel value, this will skip the payment info page and go direct to the payment screen.
             // 'mp_advanced_email_validation_enabled': true, // Optional, enable this for extended email format validation based on W3C standards.
-            // 'mp_advanced_phone_validation_enabled': true // Optional, enable this for extended phone format validation based on Google i18n standards.
+            // 'mp_advanced_phone_validation_enabled': true, // Optional, enable this for extended phone format validation based on Google i18n standards.
+            // 'mp_bill_name_edit_disabled': true, // Optional, explicitly force disable billing name edit.
+            // 'mp_bill_email_edit_disabled': true, // Optional, explicitly force disable billing email edit.
+            // 'mp_bill_mobile_edit_disabled': true, // Optional, explicitly force disable billing mobile edit.
+            // 'mp_bill_description_edit_disabled': true // Optional, explicitly force disable billing description edit.
         };
 
         var molpayCallback = function (transactionResult) {

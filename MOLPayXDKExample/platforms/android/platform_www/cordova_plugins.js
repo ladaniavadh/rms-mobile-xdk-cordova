@@ -56,7 +56,7 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.3.1",
     "cordova-plugin-x-toast": "2.5.2",
     "cordova-save-image-gallery": "0.0.26",
-    "molpay-mobile-xdk-cordova": "3.8.1"
+    "molpay-mobile-xdk-cordova": "3.9.0"
 };
 // BOTTOM OF METADATA
 });
