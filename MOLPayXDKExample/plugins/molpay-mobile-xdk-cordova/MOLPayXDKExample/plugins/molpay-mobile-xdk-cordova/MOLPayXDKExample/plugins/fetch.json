@@ -1,0 +1,58 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "molpay-mobile-xdk-cordova": {
+        "source": {
+            "type": "registry",
+            "id": "molpay-mobile-xdk-cordova"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-privacyscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-privacyscreen"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-save-image-gallery": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-save-image-gallery"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-x-toast": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-x-toast"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-android-permissions": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-android-permissions@0.10.0"
+        },
+        "is_top_level": false,
+        "variables": {}
+    }
+}
