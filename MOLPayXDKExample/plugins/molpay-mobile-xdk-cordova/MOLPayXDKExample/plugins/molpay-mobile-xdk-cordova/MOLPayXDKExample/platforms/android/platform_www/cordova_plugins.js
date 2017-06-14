@@ -51,12 +51,12 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-android-permissions": "0.10.0",
-    "cordova-plugin-inappbrowser": "1.7.0",
+    "cordova-plugin-inappbrowser": "1.7.1",
     "cordova-plugin-privacyscreen": "0.3.1",
     "cordova-plugin-whitelist": "1.3.2",
     "cordova-plugin-x-toast": "2.6.0",
     "cordova-save-image-gallery": "0.0.26",
-    "molpay-mobile-xdk-cordova": "3.11.0"
+    "molpay-mobile-xdk-cordova": "3.12.0"
 };
 // BOTTOM OF METADATA
 });

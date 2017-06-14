@@ -48,7 +48,7 @@ module.exports.metadata =
     "cordova-save-image-gallery": "0.0.26",
     "cordova-plugin-x-toast": "2.6.0",
     "cordova-plugin-android-permissions": "0.10.0",
-    "molpay-mobile-xdk-cordova": "3.12.1"
+    "molpay-mobile-xdk-cordova": "3.13.0"
 };
 // BOTTOM OF METADATA
 });
