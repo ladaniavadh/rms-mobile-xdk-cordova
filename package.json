@@ -60,5 +60,6 @@
   "bugs": {
     "url": "https://github.com/MOLPay/molpay-mobile-xdk-cordova/issues"
   },
-  "homepage": "https://github.com/MOLPay/molpay-mobile-xdk-cordova#readme"
+  "homepage": "https://github.com/MOLPay/molpay-mobile-xdk-cordova#readme",
+  "dependencies": {}
 }
