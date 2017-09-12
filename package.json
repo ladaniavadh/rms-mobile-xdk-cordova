@@ -1,6 +1,6 @@
 {
   "name": "molpay-mobile-xdk-cordova",
-  "version": "3.13.0",
+  "version": "3.14.0",
   "description": "MOLPay official in-app payment module for Cordova",
   "cordova": {
     "id": "molpay-mobile-xdk-cordova",
@@ -60,6 +60,5 @@
   "bugs": {
     "url": "https://github.com/MOLPay/molpay-mobile-xdk-cordova/issues"
   },
-  "homepage": "https://github.com/MOLPay/molpay-mobile-xdk-cordova#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/MOLPay/molpay-mobile-xdk-cordova#readme"
 }
