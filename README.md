@@ -10,11 +10,11 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
 
 ## Recommended configurations
 
-    - Cordova SDK Version: 6.1.0 ++
+    - Cordova SDK Version: 6.5.0 ++
     
     - Node.js Version: 5.3.0 ++
     
-    - Minimum Android target version: Android 4.1
+    - Minimum Android target version: Android 4.4
     
     - Minimum iOS target version: 7.0
 
