@@ -18,10 +18,6 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
     
     - Minimum iOS target version: 7.0
 
-## MOLPay Android Caveats
-
-    Credit card payment channel is not available in Android 4.1, 4.2, and 4.3. due to lack of latest security (TLS 1.2) support on these Android platforms natively.
-
 ## Installation
 
     Step 1 - cordova plugin add molpay-mobile-xdk-cordova
