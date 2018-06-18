@@ -86,7 +86,16 @@ This plugin provides an integrated MOLPay payment module that contains a wrapper
             'mp_amount' : '1.10',, // Minimum 1.01
             'mp_order_ID' : 'orderid123', 
             'mp_currency' : 'MYR',
-            'mp_country' : 'MY',
+            'mp_country' : 'MY',  
+            
+            // Optional String.
+            'mp_channel' : '', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
+            'mp_bill_description' : '',
+            'mp_bill_name' : '',
+            'mp_bill_email' : '',
+            'mp_bill_mobile' : '',
+            'mp_channel_editing' : false, // Option to allow channel selection.
+            'mp_editing_enabled' : false, // Option to allow billing information editing.
             
             // Optional, but required payment values. User input will be required when values not passed.
             'mp_channel' : 'multi', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.

@@ -27,5 +27,8 @@
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
             <string>Payment images</string>
         </config-file>
+	<config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
+            <string>Payment images</string>
+        </config-file>
     </platform>
 </plugin>
