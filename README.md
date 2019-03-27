@@ -1,14 +1,14 @@
 <!--
-# license: Copyright © 2011-2016 MOLPay Sdn Bhd. All Rights Reserved. 
+# license: Copyright © 2011-2019 MOLPay Sdn Bhd. All Rights Reserved. 
 -->
 
 <img src="https://user-images.githubusercontent.com/38641542/39353138-654385dc-4a39-11e8-9710-19e5f03ec62e.jpg">
 
-# molpay-mobile-xdk-cordova
+# rms-mobile-xdk-cordova
 
-This is the complete and functional MOLPay Cordova payment module that is ready to be implemented into Cordova project through Cordova plugin installation procedures. An example application project (MOLPayXDKExample) is provided for MOLPayXDK Cordova integration reference.
+This is the complete and functional Razer Merchant Services Cordova payment module that is ready to be implemented into Cordova project through Cordova plugin installation procedures. An example application project (MOLPayXDKExample) is provided for MOLPayXDK Cordova integration reference.
 
-This plugin provides an integrated MOLPay payment module that contains a wrapper 'molpay.js' and an upgradable core as the 'molpay-mobile-xdk-www' folder, which the latter can be separately downloaded at https://github.com/MOLPay/molpay-mobile-xdk-www and update the local version.
+This plugin provides an integrated Razer Merchant Services payment module that contains a wrapper 'molpay.js' and an upgradable core as the 'molpay-mobile-xdk-www' folder, which the latter can be separately downloaded at https://github.com/MOLPay/molpay-mobile-xdk-www and update the local version.
 
 ## Recommended configurations
 
