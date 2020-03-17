@@ -48,7 +48,7 @@ var app = {
             // 'mp_bill_mobile_edit_disabled': true, // Optional, explicitly force disable billing mobile edit.
             // 'mp_bill_description_edit_disabled': true, // Optional, explicitly force disable billing description edit.
             // 'mp_language': 'EN', // Optional, EN, MS, VI, TH, FIL, MY, KM, ID, ZH.
-            //'mp_dev_mode': true // Optional, enable for online sandbox testing.
+            // 'mp_dev_mode': true // Optional, enable for online sandbox testing.
         };
 
         var molpayCallback = function (transactionResult) {
